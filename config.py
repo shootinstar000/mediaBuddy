@@ -23,7 +23,7 @@ class Config(object):
     # Authorized users to use this bot
 
     # Generate a user session string
-    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQC9hCYM7gWdIYwz7EmM8nQeRgBLjTARgDtW0tLyxF9mQUfifLWx_wZwMx3TpzNrXKJZqniezdettRlJ_z_Cx2PJyH5lURs6aDmXZ3VmfpOJqzHBwmbnWH-0WeIPhEQ9_NtOQ1HR7ftBdMzgpiik303IZpNJA3er712C2z2eo4NjbSlrdE25pxx1E78uz5wo1eQuUbh4NNwbsAHc_T5wwlIpZRM1-WEQ-8kXGvCBiCWLLanBS8fiVhYjpqoY-kkp_EfVSVbSfp93iPbVkzQz_2HEe_LZ4QICZ2GGH5g9x3ZJlcEDFQW-NkNgXPaXGSRLROL-yEeSICw_l_5VA_KKaaK4NHBcNwA")
+    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQCphF_75h3PWWgNe2Hr05nBY8sIZdHQRSya9DB87WhDLMgIRZviwDxwQpEQcZFfK565WH8FTf-iGQEnxt1zXNa0cU4KkTS3Ixth-sHnfmM0EtC887NS8GlwMX5iZsxbgDckZh3zvwcXJeYa9ZAMOTJ5jHoVzql5h9NsM1Sm46wUlscz_keIhtYOvBxZuVh8vd0Qy1aan5q2lwE-cTMe_ol_tbrGsRsYsT7yIgouUVGzEAnuEeHavgTNwlveMMozfW7wQ2mrbhvL85XhgnGJLiy9ubgpNnTrs_x81Dnu2yxF9hjZCVIWdzKZvmFxL_jEsNN1cX07ROTEvdcu35a6ptiCNHBcNwA")
 
 
 def LOGGER(name: str) -> logging.Logger:
